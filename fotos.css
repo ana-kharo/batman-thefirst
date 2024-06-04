@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 20px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #d21617
+}
+
+#logo {
+    width: 120px;
+    height: auto;
+}
+
+.fotos {
+    background-image: url(https://i.ytimg.com/vi/6SvicaLkVGU/maxresdefault.jpg);
+    background-position: 50% 50%;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+
+.bat1 {
+    width: 250px;
+    height: 250px;
+    margin: 20px 20px 20px 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 1s;
+}
+.bat1:hover{
+    transform: scale(1.02);
+}
+
+.bat2{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 1s;
+}
+.bat2:hover{
+    transform: scale(1.02);
+}
+
+.bat3{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 1s;
+}
+.bat3:hover{
+    transform: scale(1.02);
+}
+
+.bat4{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 1s;
+}
+.bat4:hover{
+    transform: scale(1.02);
+}
+
+.bat5{
+    width: 250px;
+    height: 250px;
+    margin: 20px 20px 20px 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 1s;
+}
+.bat5:hover{
+    transform: scale(1.02);
+}
+
+.bat6{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 1s;
+}
+.bat6:hover{
+    transform: scale(1.02);
+}
+
+.bat7{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 1s;
+}
+.bat7:hover{
+    transform: scale(1.02);
+}
+
+.bat8{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 1s;
+}
+.bat8:hover{
+    transform: scale(1.02);
+}
+
+.bat9{
+    width: 250px;
+    height: 250px;
+    margin: 20px 20px 20px 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 1s;
+}
+.bat9:hover{
+    transform: scale(1.02);
+}
+
+.bat10{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 1s;
+}
+.bat10:hover{
+    transform: scale(1.02);
+}
+
+.bat11{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 1s;
+}
+.bat11:hover{
+    transform: scale(1.02);
+}
+
+.bat12{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 1s;
+}
+.bat12:hover{
+    transform: scale(1.02);
+}
+
+
+footer {
+    height: 300px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color:#fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .footer-navigation{
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .fotos{
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        
+    }
+    .bat1 {
+        margin-left: 30%;
+    }
+    .bat2{
+        margin-left: 30%;
+    }
+    .bat3{
+        margin-left: 30%;
+    }
+    .bat4{
+        margin-left: 30%;
+    }
+    .bat5{
+        margin-left: 30%;
+    }
+    .bat6{
+        margin-left: 30%;
+    }
+    .bat7{
+        margin-left: 30%;
+    }
+    .bat8{
+        margin-left: 30%;
+    }
+
+    .bat9{
+        margin-left: 30%;
+    }
+
+    .bat10{
+        margin-left: 30%;
+    }
+
+    .bat11{
+        margin-left: 30%;
+    }
+
+    .bat12{
+        margin-left: 30%;
+    }
+
+}
